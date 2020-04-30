@@ -273,7 +273,7 @@ def write_data_to_ExcleFile(alldatainfo,outPutFile):
 all_dic = read_excel_to_dict("Thesis_LocationSet.xlsx")
 print("Dictionary Completed！")
 rd = random_dr_altdic(all_dic)
-for i in [14,15,16]: #samples number
+for i in [1,2,3]: #samples number, in total 30
     rd = random_dr_altdic(all_dic)
     dr = rd[0]
     alt_dic = rd[1]
